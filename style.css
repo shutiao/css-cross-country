@@ -6,7 +6,7 @@ body {
 
 .content {
 	border: 1px solid #cac3c6;
-	marin: 0 auto;
+	margin: 0 auto;
 	padding: 20px;
 	width: 260px;
 	}
@@ -15,4 +15,15 @@ h1{
 	color: #6d9fac;
 	font-size: 22px;
 	text-align: center;
+}
+
+#slogan {
+	text-align: center;
+	font-style: italic;
+}
+
+/* compound CSS selector */
+.content.home{
+	border: none;
+	padding: 20px;
 }
