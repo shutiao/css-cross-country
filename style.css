@@ -1,29 +1,114 @@
 body {
-	color: #4b4648;
+	color: #706c6e;
 	font-family: tahoma, arial,sans-serif;
 	font-size: 14px;
 }
 
 .content {
-	border: 1px solid #cac3c6;
+	border: 2px solid #CCC;
 	margin: 0 auto;
-	padding: 20px;
-	width: 260px;
+	padding: 10px;
+	width: 600px;
 	}
 
-h1{
-	color: #6d9fac;
-	font-size: 22px;
-	text-align: center;
+header {
+	background: #e0e2e6;
+	padding: 10px;
+	display: block;
 }
 
-#slogan {
+h1{
+	color: #7ab2c1;
 	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+h2{
+	color: #999;
+	font: italic 18px/24px Georgia, serif;
+	text-align: center;
+	margin: 0;
+}
+
+h3{
+	color: #848990;
+	font: bold 16px/20px Tahoma, Arial, sans-serif;
+	margin: 0 0 15px 0;
+}
+
+p{
+	font-size:14px;
+	margin: 0 0 15px;
+	line-height: 19px;
+}
+
+.maincontent {
+	border: 2px dashed #ccc;
+	margin: 10px auto;
+	padding: 10px;
+	width: 600px;
+	}
+	
+aside {
+	float: right;
+	width: 	120px;
+	margin: 0px 0px 10px 10px;
 	font-style: italic;
 }
 
-/* compound CSS selector */
-.content.home{
-	border: none;
-	padding: 20px;
+article h1 {
+  text-align: left;
 }
+
+article p {
+	margin: 0 0 15px 0;
+}
+
+aside p {
+	font-size: 10px;
+}
+.clear {
+	clear:both;
+}
+
+nav {
+	display: block;
+	background: #e0e2e6;
+	font-size: 12px;
+	margin: 0 auto 10px auto;
+	padding: 5px 15px 5px 15px;
+	width: 600px;
+}
+
+a {
+	color: 	#a1805c;
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+
+nav li a {
+	font-weight: bold;
+	vertical-aligh: baseline;
+}
+
+main {
+	border: 2px dashed #ccc;
+	padding: 15px 15px 0;
+	width: 460px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
