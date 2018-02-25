@@ -9,6 +9,7 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 	width: 600px;
+	position: relative;
 	}
 
 header {
@@ -60,6 +61,10 @@ aside {
 	width: 	120px;
 	margin: 0px 0px 10px 10px;
 	font-style: normal;
+}
+
+article {
+	margin: 0 0 20px 0;
 }
 
 article h1 {
@@ -133,8 +138,35 @@ article .button {
 	font-weight: bold;
 }
 
-footer {
+.more {
+	background: url("arrow.png") no-repeat;
+	background-position: top right;
+	background-color: #c09d78;
+	padding: 10px 100px;
 	margin: 0 auto;
+	line-height: 40px;
+	color: white;
+}
+
+
+.store li{
+	height: 155px;
+	width: 155px;
+	overflow: hidden;
+	display: inline;
+	float: left;
+	border: 5px solid #fff;
+	margin: 0 15px 15px 0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.store li img {
+  height: 150px;
+  width: auto;
+}
+
+footer {
+	margin: 20px auto;
 	width: 600px;
 	position: relative;
 }
@@ -169,11 +201,3 @@ footer figure{
 	padding: 15px;
 	margin: 0;
 }
-
-
-
-
-
-
-
-
