@@ -18,6 +18,24 @@ header {
 	display: block;
 }
 
+.logo{
+	background: url("logo3.png") no-repeat;
+	#background-position: center;
+	margin: 0 auto;
+	text-indent: -20000px;
+	height: 75px;
+	width: 250px;
+	display: block;
+}
+
+.logo:hover, .logo:focus {
+	background-position: 0 -75px;
+}
+
+.logo:active {
+  background-position: 0 -150px;
+}
+
 h1{
 	color: #7ab2c1;
 	text-align: center;
